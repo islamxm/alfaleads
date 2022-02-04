@@ -1,0 +1,99 @@
+@media (max-width: 1000px) {
+
+    .ref {
+        height: auto;
+
+        &__in.my-atropos {
+
+            .ref__main_img {
+                display: none;
+            }
+
+            .ref__img_1 {
+                display: none;
+            }
+
+            .ref__img_2 {
+                display: none;
+            }
+
+            .ref__img_3 {
+                display: none;
+            }
+
+            .ref__img_4 {
+                display: none;
+            }
+        }   
+
+        &__content {
+            position: relative;
+            z-index: 15;
+            flex-direction: column;
+            padding: 80px 0;
+            &_mob {
+                display: block;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            &_item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                &_head {
+
+                    &_title {
+                        text-align: center;
+                    }
+                }
+                .bg-left {
+                    display: none;
+                }
+
+                .bg-right {
+                    display: none;
+                }
+            }
+
+            &_item.ref__content_item_left {
+                
+                margin-bottom: 20px;
+            }
+
+            &_item.ref__content_item_right {
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    .ref {
+
+
+        &__content {
+
+            &_item {
+
+                &_head {
+                    margin-bottom: 10px;
+                    &_title {
+                        font-size: 25px;
+                        text-align: center;
+                    }
+
+                    &_subtitle {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

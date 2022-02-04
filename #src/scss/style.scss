@@ -1,0 +1,41 @@
+//OVERALL
+@import './main/fonts.scss';
+@import './main/vars.scss';
+@import './main/global.scss';
+
+
+
+//COMP
+@import './components/block_title.scss';
+@import './components/section_title.scss';
+@import './components/button.scss';
+//BLOCKS
+@import './blocks/header.scss';
+@import './blocks/prev.scss';
+@import './blocks/banners.scss';
+@import './blocks/who.scss';
+@import './blocks/why.scss';
+@import './blocks/hist.scss';
+@import './blocks/ref.scss';
+@import './blocks/team.scss';
+@import './blocks/rev.scss';
+@import './blocks/sub.scss';
+@import './blocks/footer.scss';
+@import './blocks/mobmenu.scss';
+
+
+//MEDIA
+
+//blocks
+@import './media/blocks/prev.scss';
+@import './media/blocks/header.scss';
+@import './media/blocks/banners.scss';
+@import './media/blocks/who.scss';
+@import './media/blocks/why.scss';
+@import './media/blocks/hist.scss';
+@import './media/blocks/ref.scss';
+@import './media/blocks/team.scss';
+@import './media/blocks/rev.scss';
+@import './media/blocks/sub.scss';
+@import './media/blocks/footer.scss';
+

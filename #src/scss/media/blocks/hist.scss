@@ -1,0 +1,64 @@
+@media (max-width: 1000px) {
+
+    .hist {
+        .container {
+            padding: 0;
+        }
+
+        &__head {
+            padding: 0 20px;
+        }
+        &__slider {
+            overflow: visible;
+            padding: 60px 50px;
+            &_wr {  
+
+            }
+
+            &_sl {
+                height: unset;
+                background-color: #fff;
+
+                .descr {
+                    height: auto;
+                }
+            }
+
+            &_sl.swiper-slide-active {
+                transform: scaleY(1.15);
+
+                .descr {
+                    height: auto;
+                    transform: translateY(-50px);
+                }
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hist {
+        padding: 40px 0;
+
+        &__head {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+
+    .hist {
+
+
+        &__slider {
+
+            &_sl {
+                padding: 15px;
+                padding-bottom: 0;
+            }
+        }
+    }
+}

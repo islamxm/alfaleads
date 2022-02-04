@@ -1,0 +1,41 @@
+.section_title {
+    color: #fff;
+    font-size: 30px;
+    display: block;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    span {
+        display: block;
+        flex: 1 0 auto;
+    }
+    .line {
+        height: 4px;
+        background-color: #fff;
+        width: 100%;
+    }
+
+}
+
+.section_title.v {
+    color: $violet;
+    .line {
+        background-color: $violet;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .section_title {
+        gap: 10px;
+        font-size: 25px;
+
+        .line {
+            height: 2.5px;
+        }
+    }
+}

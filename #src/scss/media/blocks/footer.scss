@@ -1,0 +1,122 @@
+@media (max-width: 1000px) {
+
+    .footer {
+        background-image: url('../img/footer-mob-bg.png');
+
+        &__in {
+            padding: 30px 0;
+        }
+        &__main {
+            flex-direction: column;
+        }
+
+        &__contacts {
+            width: 100%;
+            margin-bottom: 25px;
+            &_title {
+                font-size: 25px;
+                line-height: normal;
+                margin-bottom: 15px;
+            }
+        }
+
+        &__form {
+            width: 100%;
+
+            &_title {
+                font-size: 25px;
+                line-height: normal;
+                margin-bottom: 15px;
+            }
+
+            &_inputs {
+
+            }
+
+            &_input {
+                width: 100%;
+
+                textarea {
+                    height: 150px;
+                }
+            }
+
+            &_btn {
+                justify-content: flex-start;
+            }
+        }
+
+        &__bot {
+
+            &_nav {
+                display: none;
+            }
+
+            &_main {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            &_ex {
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 0;
+            }
+        }
+
+        .container {
+            .footer__scene {
+
+                img {
+                    &:nth-child(1) {
+    
+                    }
+    
+                    &:nth-child(2) {
+                        top: unset !important;
+                        left: unset !important;
+                        bottom: 30%;
+                        right: 25px;
+                        width: 50px;
+                        height: 45px;
+                    }
+    
+                    &:nth-child(3) {
+                        left: unset !important;
+                        right: 25px;
+                        top: -15px !important;
+                        transform: scale(-1, 1);
+                        height: 100px;
+                        width: 100px;
+                    }
+    
+                    &:nth-child(4) {
+                        display: none;
+                    }
+    
+                    &:nth-child(5) {
+                        bottom: unset !important;
+                        right: 0;
+                        left: unset !important;
+                        top: 15% !important;
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+
+        
+    }
+}
+
+
+@media(max-width: 600px) {
+
+    .footer {
+
+        &__main {
+            margin-bottom: 50px;
+        }
+    }
+}

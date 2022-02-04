@@ -1,0 +1,25 @@
+.block_title {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    position: relative;
+    padding-top: 50px;
+    font-size: 30px;
+    line-height: normal;
+    font-weight: 700;
+
+    &:after {
+        position: absolute;
+        content: url('../img/block_title.png');
+        top: 0;
+        left: calc(50% - (136px / 2));
+    }
+}
+
+@media (max-width: 650px) {
+
+    .block_title {
+        font-size: 25px;
+        padding-top: 35px;
+    }
+}

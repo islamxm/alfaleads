@@ -1,0 +1,92 @@
+.who {
+
+    &__in {
+        padding-top: 290px;
+    }
+
+    &__head {
+
+
+    }
+
+    &__title {
+        margin-bottom: 90px;
+    }
+
+    &__content {
+        background-image: url('../img/who-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding-bottom: 100px;
+
+        &_top {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            margin-bottom: 110px;
+            &_logo {
+
+            }
+
+            &_text {
+                line-height: 30px;
+                font-size: 18px;
+                color: #fff;
+
+            }
+        }
+
+        &_main {
+
+            &_title {
+                margin-bottom: 55px;
+            }
+
+            &_list {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &_item {
+                max-width: 210px;
+                width: 100%;
+
+                .date {
+                    font-size: 30px;
+                    color: $aqua;
+                    font-weight: 700;
+                    margin-bottom: 17px;
+                }
+
+                .name {
+                    font-size: 18px;
+                    color: #fff;
+                    line-height: 36px;
+                    margin-bottom: 17px;
+                    @include def-anim;
+
+                    &:hover {
+                        color: $aqua;
+                    }
+                }
+
+                .city {
+                    position: relative;
+                    padding-left: 15px;
+                    color: $aqua;
+                    font-size: 18px;
+                    line-height: 36px;
+                    
+                    &:after {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        content: url('../img/who-city.png');
+                    }
+
+                }
+            }
+        }
+    }
+}

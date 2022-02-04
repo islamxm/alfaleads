@@ -1,0 +1,13 @@
+//COLORS
+$aqua: #00ffe4;
+$violet: #7a00ff;
+$l_violet: #8f00ff;
+$gray_bg:#f6f3f8;
+$blue: #310066;
+$text_gray: #c9bcd7;
+$scrollbar: #34006c;
+
+
+@mixin def-anim {
+    transition: all .3s ease;
+}

@@ -1,0 +1,22 @@
+.banners {
+    .container {
+        position: relative;
+    }
+    &__in {
+        top: -70px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    &__item {
+        width: 48%;
+        height: 249px;
+        border-radius: 20px;
+        background-color: $violet;
+    }
+}
