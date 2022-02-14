@@ -6,15 +6,19 @@ export function mobmenu() {
 
     const menu = document.querySelector('.mobmenu');
 
-    burgerBtn.addEventListener('click', (e) => {
-        menu.classList.add('active');
-        // document.body.classList.add('no-scroll');
-        disablePageScroll(document.body);
-    });
 
-    closeBtn.addEventListener('click', (e) => {
-        menu.classList.remove('active');
-        // document.body.classList.remove('no-scroll');
-        enablePageScroll(document.body);
-    });
+    if(burgerBtn) {
+        burgerBtn.addEventListener('click', (e) => {
+            menu.classList.add('active');
+            
+            disablePageScroll(menu);
+        });
+    
+        closeBtn.addEventListener('click', (e) => {
+            menu.classList.remove('active');
+            enablePageScroll(menu);
+        });
+    }
+
+    
 }

@@ -10,7 +10,7 @@
 /*!***************************************!*\
   !*** ./#src/js/components/mobmenu.js ***!
   \***************************************/
-/*! exports provided: mobmenu */function(e,t,s){"use strict";s.r(t),s.d(t,"mobmenu",(function(){return i}));var n=s(/*! scroll-lock */"./node_modules/scroll-lock/dist/scroll-lock.js");function i(){const e=document.querySelector(".header__burger_btn"),t=document.querySelector(".mobmenu__close"),s=document.querySelector(".mobmenu");e.addEventListener("click",e=>{s.classList.add("active"),Object(n.disablePageScroll)(document.body)}),t.addEventListener("click",e=>{s.classList.remove("active"),Object(n.enablePageScroll)(document.body)})}},"./#src/js/script.js":
+/*! exports provided: mobmenu */function(e,t,s){"use strict";s.r(t),s.d(t,"mobmenu",(function(){return i}));var n=s(/*! scroll-lock */"./node_modules/scroll-lock/dist/scroll-lock.js");function i(){const e=document.querySelector(".header__burger_btn"),t=document.querySelector(".mobmenu__close"),s=document.querySelector(".mobmenu");e&&(e.addEventListener("click",e=>{s.classList.add("active"),Object(n.disablePageScroll)(s)}),t.addEventListener("click",e=>{s.classList.remove("active"),Object(n.enablePageScroll)(s)}))}},"./#src/js/script.js":
 /*!***************************!*\
   !*** ./#src/js/script.js ***!
   \***************************/
